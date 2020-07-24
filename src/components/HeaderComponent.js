@@ -1,5 +1,5 @@
 import React, { Component }  from 'react';
-import { Navbar, NavbarBrand, Nav, NavbarToggler, Collapse, NavItem, Jumbotron,
+import { Navbar,  Nav, NavbarToggler, Collapse, NavItem, Jumbotron,
     Button, Modal, ModalHeader, ModalBody,
     Form, FormGroup, Input, Label } from 'reactstrap';
 import { NavLink } from 'react-router-dom';
@@ -45,15 +45,15 @@ class Header extends Component {
                     <div className="container">
                         <div className="row">
                             <div className="col">
-                                <h1>NuCamp</h1>
-                                <h2>a better way to camp</h2>
+                                <h1>Babas Waffle Wagon</h1>
+                                <h5>When You Love Breakfast for Every Meal</h5>
                             </div>
                         </div>
                     </div>
                 </Jumbotron>
                 <Navbar dark sticky="top" expand="md">
                     <div className="container">
-                        <NavbarBrand className="mr-auto" href="/"><img src="/assets/images/logo.png" height="30" width="30" alt="NuCamp Logo" /></NavbarBrand>
+                  
                         <NavbarToggler onClick={this.toggleNav} />
                         <Collapse isOpen={this.state.isNavOpen} navbar>
                             <Nav navbar>
@@ -64,12 +64,12 @@ class Header extends Component {
                                 </NavItem>
                                 <NavItem>
                                     <NavLink className="nav-link" to="/directory">
-                                        <i className="fa fa-list fa-lg" /> Directory
+                                        <i className="fa fa-list fa-lg" /> Menu
                                     </NavLink>
                                 </NavItem>
                                 <NavItem>
                                     <NavLink className="nav-link" to="/aboutus">
-                                        <i className="fa fa-info fa-lg" /> About
+                                        <i className="fa fa-info fa-lg" /> Our Waffle Story
                                     </NavLink>
                                 </NavItem>
                                 <NavItem>
@@ -79,7 +79,7 @@ class Header extends Component {
                                 </NavItem>
                                 </Nav>
                             <span className="navbar-text ml-auto">
-                                <Button outline onClick={this.toggleModal}>
+                                <Button outline btn-primary onClick={this.toggleModal}>
                                     <i className="fa fa-sign-in fa-lg" /> Login
                                 </Button>
                             </span>

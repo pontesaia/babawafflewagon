@@ -1,30 +1,30 @@
 export const PARTNERS = [
     {
         id: 0,
-        name: "Bootstrap Outfitters",
-        image: "/assets/images/bootstrap-logo.png",
+        name: "Alan Sugar",
+        image: "/assets/images/buttermilk-waffles-recipe.jpg",
         featured: false,
-        description: "Bootstrap Outfitters supplies you with the gear you need at prices you can't beat."
+        description: "I know you're Belgian, that's where those waffles come from."
     },
     {
         id: 1,
-        name: "Git Out Expeditions",
-        image: "/assets/images/git-logo.png",
+        name: "Howard Dean",
+        image: "/assets/images/chicken-waffles-kicky-syrup.jpg",
         featured: false,
-        description: "Join Git Out Expeditions to explore new horizons with a group of other adventurers!"
+        description: "I've waffled before. I'll waffle again."
     },
     {
         id: 2,
-        name: "Mongo Fly Shop",
-        image: "/assets/images/mongo-logo.png",
+        name: "Lauren Myracle",
+        image: "/assets/images/cinnamon-roll-waffles.jpg",
         featured: false,
-        description: "Need a new fishing pole, a tacklebox, or flies of all kinds? Stop by Mongo Fly Shop."
+        description: "You should eat a waffle! You can't be sad if you eat a waffle!"
     },
     {
         id: 3,
-        name: "Node Outdoor Apparel",
-        image: "/assets/images/node-logo.png",
+        name: "Chef Riggsy",
+        image: "/assets/images/huevos-rancheros-breakfast-waffle-stack-recipe.jpg",
         featured: true,
-        description: "From polar fleeces to swimsuits, hiking boots to waders, a visit to Node will be sure to get you covered."
+        description: "Is there anything bettter than a Waffle tostada stacked with fresh Guacamole, homemade Salsa and topped with a delectable sunny-side up fried egg? Try it!"
     }
 ]

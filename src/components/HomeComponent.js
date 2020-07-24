@@ -5,6 +5,8 @@ import { Card, CardImg, CardText, CardBody, CardTitle } from 'reactstrap';
 
 function RenderCard({item}) {
     return (
+       
+         
         <Card>
             <CardImg src={item.image} alt={item.name} />
             <CardBody>
@@ -12,6 +14,7 @@ function RenderCard({item}) {
                 <CardText>{item.description}</CardText>
             </CardBody>
         </Card>
+       
     );
 }
 
@@ -20,14 +23,17 @@ function RenderCard({item}) {
 function Home(props) {
     return (
         <div className="container">
+             <div className="row">
+            <h1>Today's Specials</h1>
+                </div>
             <div className="row">
-                <div className="col-md m-1">
+                <div className="col-md-6 m-0">
                     <RenderCard item={props.campsite} />
                 </div>
-                <div className="col-md m-1">
+                <div className="col-md-6 m-0">
                     <RenderCard item={props.promotion} />
                 </div>
-                <div className="col-md m-1">
+                <div className="col-md m-0">
                     <RenderCard item={props.partner} />
                 </div>
             </div>

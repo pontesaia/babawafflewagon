@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
     
 function RenderCampsite({campsite}) {
         return(
-            <div className="col-md-5 m-1">
+            <div className="col-md-8 m-1">
                 <Card>
                     <CardImg top src={campsite.image} alt={campsite.name} />
                     <CardBody>
@@ -21,7 +21,7 @@ function RenderCampsite({campsite}) {
 function RenderComments({comments}){
       if(comments){
           return(
-              <div className="col-md-5 m-1">
+              <div className="col-md-3 m-1">
                   <h4>Comments</h4>
                   {comments.map(comment =>  
                     <div>
@@ -43,7 +43,7 @@ function CampsiteInfo(props){
                     <div className="row">
                         <div className="col">
                             <Breadcrumb>
-                                <BreadcrumbItem><Link to="/directory">Directory</Link></BreadcrumbItem>
+                                <BreadcrumbItem><Link to="/directory">Menu</Link></BreadcrumbItem>
                                 <BreadcrumbItem active>{props.campsite.name}</BreadcrumbItem>
                             </Breadcrumb>
                             <h2>{props.campsite.name}</h2>

@@ -1,9 +1,9 @@
 export const PROMOTIONS = [
     {
         id: 0,
-        name: "Mountain Adventure",
-        image: "/assets/images/breadcrumb-trail.jpg",
+        name: "Free Waffle when you Bring a Friend to Babas Waffle Truck",
+        image: "/assets/images/potato_waffles.jpg",
         featured: true,
-        description: "Book a 5-day mountain trek with a seasoned outdoor guide! Fly fishing equipment and lessons provided."
+        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat!"
     }
 ]
